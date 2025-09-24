@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "python-module-length"
+version = "0.1.0"
+description = "A pre-commit hook to enforce a maximum line count per Python module."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+
+[project.urls]
+Homepage = "https://github.com/yourname/python-module-length"
+Repository = "https://github.com/yourname/python-module-length"
+
+[project.scripts]
+python-module-length = "python_module_length.module_length:main"

@@ -1,0 +1,8 @@
+- id: python-module-length
+  name: enforce max lines per Python module
+  description: Fail if any Python module exceeds the configured max line count.
+  entry: python-module-length
+  language: python
+  types: [python]
+  pass_filenames: true
+  args: ["--max-lines=1000"]
