@@ -12,7 +12,7 @@ Add to your `.pre-commit-config.yaml` (after publishing this repo):
 
 ```yaml
 repos:
-  - repo: https://github.com/yourname/python-module-length
+  - repo: https://github.com/tidygiraffe/python-module-length
     rev: v0.1.0
     hooks:
       - id: python-module-length
@@ -26,11 +26,6 @@ Run directly as a CLI:
 python-module-length --max-lines 1000 path/to/file.py
 ```
 
-Or with pre-commit locally without publishing yet:
-
-```bash
-pre-commit try-repo C:\\code\\tidygiraffe\\python-module-length --ref HEAD --verbose --all-files
-```
 
 ## License
 MIT
